@@ -1,0 +1,21 @@
+@import '../../styles/globalVariables.scss';
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+.mainContainer {
+  max-width: 402px;
+}
+.container {
+  margin-bottom: 18px;
+}
+.addition {
+  margin-top: 14px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.blueLink {
+  color: $blue-color;
+  padding-left: 5px;
+}

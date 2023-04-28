@@ -1,0 +1,36 @@
+@import '../../styles/globalVariables.scss';
+.form {
+  max-width: 402px;
+  text-align: left;
+  font-size: 14px;
+  width: 100%;
+}
+.title {
+  font-size: 24px;
+  line-height: calc(29 / 24);
+  font-weight: 700;
+}
+.decor {
+  color: $grey-color;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: relative;
+  margin-bottom: 24px;
+  &::before {
+    content: '';
+    border-top: 1px solid $grey-color;
+    width: 100%;
+    height: 1px;
+    display: grid;
+    position: absolute;
+    left: 0;
+    top: 50%;
+  }
+  span {
+    display: block;
+    padding: 7px;
+    z-index: 1;
+    background-color: #fff;
+  }
+}
